@@ -1,0 +1,13 @@
+rules:
+
+  suspicious_process:
+    severity: medium
+
+  interface_down:
+    severity: low
+
+  repeated_event:
+    severity: high
+
+  unknown_binary:
+    severity: high

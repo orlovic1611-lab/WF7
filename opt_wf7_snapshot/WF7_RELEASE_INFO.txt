@@ -1,0 +1,16 @@
+WF7 RELEASE MANIFEST
+Version: 7.1
+Status: Production Ready
+
+Components:
+- Runtime: /opt/wf7/wf.py
+- PRO Engine: /opt/wf7/pro_engine/
+- Cloud API: /opt/wf7/cloud_api/
+- Enterprise Agent: /opt/wf7/wf7_agent.py
+- Systemd Service: /usr/lib/systemd/system/wf7-agent.service
+
+Commands:
+- wf super
+- wf plugins
+- systemctl status wf7-agent
+

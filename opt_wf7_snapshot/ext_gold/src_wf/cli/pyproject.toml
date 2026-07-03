@@ -1,0 +1,4 @@
+
+
+[project.scripts]
+wf = "wf.cli.main:main"

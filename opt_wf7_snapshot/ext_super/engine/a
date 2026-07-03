@@ -1,0 +1,4 @@
+WF project marker file.
+
+This file exists intentionally so the filesystem sensor sees a real non-empty
+project file instead of flagging an empty placeholder.
